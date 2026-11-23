@@ -1,4 +1,4 @@
-package cp.campus.todolist.dto;
+package com.campus.streamcampus.dto;
 
 public record  CategoriaResponse (
         Long id,

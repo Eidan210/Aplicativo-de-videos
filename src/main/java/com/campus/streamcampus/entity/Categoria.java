@@ -1,4 +1,4 @@
-package cp.campus.todolist.entity;
+package com.campus.streamcampus.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Getter
 
 
-public class Categorias {
+public class Categoria {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +21,7 @@ public class Categorias {
     @Column(nullable = false, length = 150)
     private String nombre;
 
-    public Categorias(String nombre) {
+    public Categoria(String nombre) {
         this.nombre = nombre;
     }
 }

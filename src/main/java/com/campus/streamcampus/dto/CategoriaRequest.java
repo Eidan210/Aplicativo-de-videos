@@ -1,4 +1,4 @@
-package cp.campus.todolist.dto;
+package com.campus.streamcampus.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
